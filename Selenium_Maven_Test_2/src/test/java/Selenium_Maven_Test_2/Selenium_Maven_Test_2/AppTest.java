@@ -41,11 +41,11 @@ public class AppTest {
         System.out.println("maximize browser");
 
 		// Click on the Custom Search text box and send value  
-	    driver.findElement(By.id("gsc-i-id1")).sendKeys("Java");
+	    //driver.findElement(By.id("gsc-i-id1")).sendKeys("Java");
         
         //To reproduce a build failure
         // Click on the Custom Search text box and send value
-        //driver.findElement(By.id("gsc-i-id2")).sendKeys("Java");
+        driver.findElement(By.id("gsc-i-id2")).sendKeys("Java");
         
         System.out.println("Type Java");
         
